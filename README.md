@@ -12,4 +12,8 @@ Only tested with cordova-ios@3.9.2
 
 Is not compatible with cordova-ios@4.0.0-dev since the build architecture change
 
+Give it a try
+
+  $ cordova plugin add https://github.com/csantanapr/cordova-plugin-workspace
+
 License: Apache 2.0
