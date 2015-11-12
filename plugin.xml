@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+           id="cordova-plugin-workspace"
+      version="1.0.0">
+    <name>Workspace</name>
+    <description>Build Workspace for ios plaformt 3.9.x</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,workspace</keywords>
+
+    <engines>
+      <engine name="cordova-ios" version="3.9.x" />
+    </engines>
+
+    <platform name="ios">
+      <hook type="after_plugin_install" src="hooks/replace_scripts.js" />
+      <hook type="before_plugin_uninstall" src="hooks/restore_scripts.js" /> 
+    </platform>
+</plugin>

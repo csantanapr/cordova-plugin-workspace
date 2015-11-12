@@ -1,0 +1,23 @@
+{
+  "name": "cordova-plugin-workspace",
+  "version": "1.0.0",
+  "description": "Cordova Workspace Plugin",
+  "cordova": {
+    "id": "cordova-plugin-workspace",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csantanapr/cordova-plugin-workspace"
+  },
+  "keywords": [
+    "cordova",
+    "workspace",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Carlos Santana",
+  "license": "Apache-2.0"
+}
