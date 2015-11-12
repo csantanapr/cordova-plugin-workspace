@@ -4,8 +4,8 @@ This plugin is for educational purposes only.
 
 Shows how to author a cordova plugin hook
 
-This plugin replaces the build.js for cordova ios, if a workspace is present it will
-build the workspace instead of the project, sometime useful when having cocoapods in a 
+This plugin replaces the build.js and clean.js for cordova ios, if a workspace is present it will
+build/clean the workspace instead of the project, sometime useful when having cocoapods in a 
 cordova app.
 
 Only tested with cordova-ios@3.9.2
